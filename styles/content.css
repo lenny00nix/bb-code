@@ -1,0 +1,140 @@
+body {
+   background-color:transparent;
+   font-family:'Ancona';
+   color:#404040;
+}
+
+a {
+   color:#808080;
+   text-decoration:none;
+}
+a:link    { }
+a:visited { }
+a:hover   { color:#000000; }
+a:active  { }
+a:focus   { }
+
+div#content {
+   padding:10px;
+}
+
+div#content p {
+   font:0.9em/150% 'Ancona';
+   te xt-align:justify;
+}
+
+/*div#content b {
+   font:bold 1.2em/150% 'Ancona';
+} */
+
+div#content hr {
+   background-color:#00f000;
+   height:4px;
+   border:none;
+   clear:both;
+}
+
+div#content h1, h2, h3, h4, h5, h6 {
+   font-family:'Ancona-Narrow';
+   clear:both;
+}
+div#content h1 {
+   color:#808080;
+   font-size:1.8em;
+}
+div#content h2 {
+   color:#707070;
+   font-size:1.7em;
+}
+div#content h3 {
+   color:#606060;
+   font-size:1.6em;
+}
+div#content h4 {
+   color:#505050;
+   font-size:1.5em;
+}
+div#content h5 {
+   color:#505050;
+   font-size:1.4em;
+}
+div#content h6 {
+   color:#505050;
+   font-size:1.3em;
+}
+
+div#content img {
+   border:0;
+}
+div#content img.border {
+   border:4px #f5f5f5 solid;
+}
+div#content img.right {
+   margin:5px 0 5px 10px;
+   float:right;
+}
+div#content img.left {
+   margin:5px 10px 5px 0;
+   float:left;
+}
+
+div#content ol {
+   list-style-type:upper-roman;
+}
+
+div#content ul {
+}
+
+div#content ul li, div#content ol li {
+   font:italic 0.9em/150% 'Ancona';
+}
+/* div#content ul li b, div#content ol li b {
+   font:italic bold 1.2em/150% 'Ancona';
+} */
+
+div#content ul ul, div#content ol ol {
+   padding-left:40px;
+}
+
+div#content ul ul li, div#content ol ol li {
+   font:normal 0.86em/150% 'Ancona';
+}
+/* div#content ul ul li b, div#content ol ol li b {
+   font:italic bold 1.16em/150% 'Ancona';
+} */
+
+div#content th, div#content tr {
+   text-align:left;
+	vertical-align:top;
+}
+
+div#content th {
+   font:bold 0.9em/150% 'Ancona';
+}
+/* div#content th b, div#content th b {
+   font:italic bold 1.2em/150% 'Ancona';
+} */
+div#content td {
+   font:italic 0.86em/150% 'Ancona';
+}
+/* div#content td b, div#content td b {
+   font:italic bold 1.16em/150% 'Ancona';
+} */
+
+div#content .black { color:#000000; background-color:transparent; }
+div#content .green { color:green; background-color:transparent; }
+div#content .red { color:#fc3204; background-color:transparent; }
+div#content .blue { color:#0000ff; background-color:transparent; }
+div#content .gray { color:gray; background-color:transparent; }
+
+div#content .mono {
+   font:0.9em/150% 'Courier-PS';
+   te xt-align:justify;
+}
+
+div#content blockquote.important {
+   font:0.9em/150% 'Ancona';
+   border-left: 3px dashed tomato;
+   padding-left: 10px;
+   margin-left: 10px;
+}
